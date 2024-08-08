@@ -1,0 +1,108 @@
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100svh;
+    margin: 0;
+}
+
+.parent {
+    background-color: #ffd7a0;
+    background-color: #bde0fe;
+    width: 500px;
+    aspect-ratio: 16/10;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imgContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+
+.image {
+    width: 90%;
+    border-radius: 6px;
+}
+
+.child {
+    width: 150px;
+    height: 150px;
+    background-color: #ffcb47;
+    background-color: #a2d2ff;
+    rotate: 30deg;
+    border-radius: 7px;
+    position: absolute;
+    z-index: 1;
+}
+
+.child:nth-of-type(1) {
+    top: -40px;
+    left: -50px;
+    scale: 1.2;
+}
+
+.child:nth-of-type(2) {
+    bottom: -40px;
+    right: -50px;
+    scale: 1.5;
+} */
+
+body {
+    margin: 0;
+    background-color: black;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+.row {
+    border: 2px solid grey;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.float {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    font-size: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    display: inline-flex;
+    width: 200px;
+    height: 200px;
+    font-size: 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.label {
+    min-height: 200px;
+    height: 100%;
+}
+
+.super {
+    background-color: green;
+}
+
+.medium {
+    background-color: yellow;
+}
+
+.bad {
+    background-color: red;
+}
